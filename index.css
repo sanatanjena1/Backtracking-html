@@ -1,3 +1,159 @@
-body{
-    background-color: aqua;
+
+#div1{
+    background: linear-gradient(to right,rgb(223, 219, 5),rgb(0, 255, 21),blue,cyan);
+    border-radius: 1200px;
+   
+    width: 900px;
+    height: 42em;
+ } 
+ form{
+     border: 5px dotted #18191ae0;
+     width: 485px;
+     border-radius: 50px;
+     /* text-align: end; */
+ }
+/* fieldset{
+    background: linear-gradient(green,blue,black);
+    border-radius: 400px;
+    border: solid 3px black;
+} */
+legend{
+    color: blue;
+    font-size: larger;
 }
+#cl
+{
+    background-color: green;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+
+}
+#cl:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#st
+{
+
+    background-color: red;
+    font-size: large;
+    border-radius: 10px;
+}
+#st:hover{
+    background-color: yellow;
+    cursor: pointer;
+    border: 5px solid cyan;
+}
+input{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0bf131de;
+    /* color: black; */
+    text-emphasis: initial;
+    text-align: center;
+    padding: 1px 2px;
+    background-color: #E8FDFE;
+}
+input:hover{
+    background-color: white;
+}
+label{
+    width: 120px;
+    display: inline-block;
+    /* text-transform: uppercase; */
+    font-size: larger;
+}
+::placeholder{
+    text-transform: lowercase;
+    text-align: center;
+}
+#clg{
+   
+}
+#clg:hover{
+    background-color: green;
+    
+}
+i{
+    font-size: 20px;
+}
+fieldset{
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 60px;
+    border-top-left-radius: 20px;
+}
+legend{
+    background-color: wheat;
+    color: black;
+}
+h3{
+    text-align: center;
+}
+.div2{
+    /* background-color: red; */
+    width: 80px;
+    height: 59px;
+    float:left;
+    background-image: url(sj.jpg);
+}
+.img{
+    border-radius: 50px;
+}
+
+
+
+
+
+
+.bd{
+    /* background-color: pink; */
+    background: linear-gradient( to left,red,rgb(0, 255, 55),yellow);
+      place-items: center;
+                                           
+}
+/* #fm{
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+} */
+.gg{
+    /* background-color: blue; */
+    background-image: url(tenor.gif);
+    
+    
+   
+    
+    
+    color: pink;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 160px 0px 160px 0px;
+    border-radius: 60%;
+}
+/* .gg:hover{
+    /* background-color:aqua; */
+    /* background-image: url(te); */
+    /* background-color: rgba(56,444,666,777); */
+    /* color: yellow;
+    box-shadow: 10px 10px 10px 20px rgb(11, 247, 22);
+/* } */ 
+
+#rat:hover{
+    font-size: 60%;
+    color: blue;
+}
+.tbd{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 450;
+   padding: 30px 35px  30px 35px;
+  
+   
+}
+
+
+
+/* it's form style start */

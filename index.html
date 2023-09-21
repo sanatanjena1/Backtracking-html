@@ -3,19 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enquiry - From</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="my.png">
 </head>
-<body>
-    <h1>Backtracking Project</h1>
-    <h2>Github deployment</h2>
-    <form action="">
-        <fieldset>
-            <legend>Enquiry - Form</legend>
-            <label for=""><span style="color: red; font-size: medium; text-align: center;">Calender:</span></label>
-            <input type="date" name="" id="">
-        </fieldset>
-    </form>
-    <img src="my-image.jpg" alt="No Support" title="Mr- Sj Web Developer">
+<body><center>
+    <div id="div1">
+        <!-- <h3>Student Details Form</h3>         -->
+        <center><br>
+            
+            <form action="index2.html" method="GET">
+            <fieldset style="height: 500emm; width: 450px;"  >
+            
+                <legend>Enquiry Form</legend>
+                <div class="div2">
+                    <img src="my.png" alt="" width="80px" height="59px" class="img">
+                </div>
+               <div class="div3"><h3> Enquiry Form</h3></div>
+                
+                
+
+
+                    <label for="namef">First-Name :</label> <i class="fa-solid fa-user fa-beat" style="color: #1ce91c;"><br></i>
+                    <input type="text" name="namef" id="namef" placeholder="Enter First Name" title="enter first name" autofocus="">
+                    <br>
+                    <br>
+                    <label for="namel">Last-Name :</label> <i class="fa-solid fa-user fa-beat" style="color: #1ce91c;"><br></i> 
+                    <input type="text" name="namel" id="namel" placeholder="Enter Last Name"  title="enter last name">
+                    <br>
+                    <br>
+                    <label for="phone">Mobile-No :</label><i class="fa-solid fa-phone-volume fa-bounce" style="color: #0453f1;"><br></i> 
+                    <input type="phone" name="phone" id="phone" placeholder="Enter-Phone-Number" value="" maxlength="10" title="enter mobile no">
+                    <br>
+                    <br>  
+                    <label for="email">Email-id : </label> <i class="fa-solid fa-envelope fa-fade" style="color: #ecd909;"></i>
+                    <input type="email" name="email" id="email" placeholder="Ex-abc12@gmail.com" title="enter e-mail">
+                    <br>
+                    <br>
+                    <label for="pwd">Password :</label> <i class="fa-solid fa-unlock-keyhole fa-shake" style="color: #e60f0f;"></i>
+                    <input type="password" name="password" id="pwd" placeholder="Enter-Password" title="enter password">
+                    <br>
+                    <br>
+                    <label for="pwd">Re- Enter :</label> <i class="fa-solid fa-unlock-keyhole fa-shake" style="color: #e60f0f;"></i>
+                    <input type="password" name="password" id="pwd" placeholder="Re-Enter Password" title="re-eneter password">
+                    <br>
+                    <br>
+                    <label for="myinput">Country:</label> <i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #113dee;"></i>
+                    <input type="search" name="world" id="myinput" list="country" placeholder="Search" title="select country" title="search now">
+                    <datalist id="country" &copy;>
+
+                         <option value="India">India</option>
+                         <option value="United States of America">United States of America</option>
+                         <option value="United Kingdom">United Kingdom</option>
+                         <option value="Uruguay">Uruguay</option>
+                         <option value="Uzbekistan">Uzbekistan</option>
+                         <option value="Vanuatu">Vanuatu</option>
+                         <option value="Vatican City (Holy See)">Vatican City (Holy See)</option>
+                         <option value="Venezuela">Venezuela</option>
+                         <option value="Vietnam">Vietnam</option>
+                         <option value="Yemen">Yemen</option>
+                         <option value="Zambia">Zambia</option>
+                         <option value="Zimbabwe">Zimbabwe</option>
+                         <option value="United Arab Emirates">United Arab Emirates</option>
+                         <option value="Ukraine">Ukraine</option>
+                         <option value="Uganda">Uganda</option>
+                         <option value="Sri Lanka">Sri Lanka</option>
+                         <option value="South Africa">South Africa</option>
+                         <option value="Japan">Japan</option>
+                         <option value="Italy">Italy</option>
+                         <option value="Ireland">Ireland</option>
+                         <option value="Iran">Iran</option>
+                         <option value="France">France</option>
+                         <option value="China">China</option>
+                         <option value="Canada">Canada</option>
+                         <option value="Bhutan">Bhutan</option>
+                         <option value="Austria">Austria</option>
+                         <option value="Afghanistan">Australia</option>
+                         <option value="">Afghanistan</option>
+                         <option value="Algeria">Algeria</option>
+                         <option value="Andorra">Andorra</option>
+                         <option value="Pakistan">Pakistan</option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <label for="date">Date & Time: </label> <i class="fa-regular fa-clock fa-spin" style="color: #d40c9f;"></i>
+                    <input type="datetime-local" name="datetime" id="date" title="date & time" >
+                    <!-- <input type="file" name="hh" id="dd">
+                    <label for="study">Year of study</label>
+                    <select name="study" id="study">
+                        <option value="1">1st</option>
+                        <option value="2">2nd</option>
+                        <option value="3">3rd</option>
+                    </select> -->
+                    <br>
+                    <br>
+                     <label for="">Language :</label>
+                     English
+                     <input type="checkbox" name="lg" id="language">
+                    Hindi
+                     <input type="checkbox" name="lg" id="language">
+                     Odia
+                     <input type="checkbox" name="lg" id="language">
+                     Bengali
+                     <input type="checkbox" name="lg" id="language">
+                    <br>
+                    <br>
+                    <label for="radio-button">Gender:</label>Male
+                   <input type="radio" name="radio-button" id="radio" title="conform">
+                   Female
+                   <input type="radio" name="radio-button" id="radio" title="conform">
+                   Othes
+                   <input type="radio" name="radio-button" id="radio" title="conform">
+                   <br>
+                   <br>
+                   <input type="checkbox" name="check" id="ckd" Required>
+                   I agree with to all the condition,
+                   <br>
+                   <br>
+                <button type="reset" id="cl" title="chick to all clear">clear</button>
+                <button type="submit" id="st" title="conform">Submit</button>
+                </fieldset>
+                </form>
+                </center>
+        
+            </div>
+            </center>
 </body>
 </html>
